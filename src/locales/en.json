@@ -1,0 +1,30 @@
+{
+  "RootLayout": {
+    "home_link": "Home",
+    "sign_in_link": "Sign in",
+    "sign_up_link": "Sign up"
+  },
+  "BaseTemplate": {
+    "description": "Welcome to the HTM Niseko."
+  },
+  "Index": {
+    "meta_title": "HTM Niskeo",
+    "meta_description": "Book your properties in Niseko with HTM Niseko."
+  },
+  "SignIn": {
+    "meta_title": "Sign in",
+    "meta_description": "Sign in to your account to access your bookings and more."
+  },
+  "SignUp": {
+    "meta_title": "Sign up",
+    "meta_description": "Sign up for an account to book your properties in Niseko with HTM Niseko."
+  },
+  "Dashboard": {
+    "meta_title": "Dashboard",
+    "hello_message": "Hello {email}!"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Dashboard",
+    "sign_out": "Sign out"
+  }
+}

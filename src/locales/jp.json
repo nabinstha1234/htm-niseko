@@ -1,0 +1,30 @@
+{
+  "RootLayout": {
+    "home_link": "ホーム",
+    "sign_in_link": "サインイン",
+    "sign_up_link": "サインアップ"
+  },
+  "BaseTemplate": {
+    "description": "HTM Niseko へようこそ。"
+  },
+  "Index": {
+    "meta_title": "HTM Niskeo",
+    "meta_description": "HTM Niseko でニセコの宿泊施設を予約しましょう。"
+  },
+  "SignIn": {
+    "meta_title": "サインイン",
+    "meta_description": "アカウントにサインインして、予約情報などにアクセスしましょう。"
+  },
+  "SignUp": {
+    "meta_title": "サインアップ",
+    "meta_description": "HTM Niseko でニセコの宿泊施設を予約するには、アカウントにサインアップしてください。"
+  },
+  "Dashboard": {
+    "meta_title": "ダッシュボード",
+    "hello_message": "こんにちは、{email} さん!"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "ダッシュボード",
+    "sign_out": "サインアウト"
+  }
+}
