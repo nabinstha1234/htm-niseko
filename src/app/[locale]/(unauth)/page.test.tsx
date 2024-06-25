@@ -14,7 +14,7 @@ describe('Index page', () => {
         </NextIntlClientProvider>,
       );
 
-      const heading = screen.getByRole('paragraph', {
+      const heading = screen.getByRole('heading', {
         name: /Welcome to HTM/,
       });
 
