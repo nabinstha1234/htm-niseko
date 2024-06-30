@@ -27,7 +27,7 @@ interface TriggerProps {
   name: string;
   children: ReactElement;
   // eslint-disable-next-line react/no-unused-prop-types
-  onClick?: () => {};
+  onClick?: () => void;
 }
 
 interface WindowProps extends TriggerProps {}
