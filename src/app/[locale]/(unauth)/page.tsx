@@ -22,7 +22,7 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 
 const getData = async () => {
   try {
-    const filePath = `http://localhost:3000/db.json`;
+    const filePath = `${process.env.NEXT_PUBLIC_APP_URL}/db.json`;
     const response = await fetch(filePath, { cache: 'no-store' });
     if (!response.ok) {
       throw new Error(`Failed to fetch file: ${response.statusText}`);
