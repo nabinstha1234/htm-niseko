@@ -25,6 +25,16 @@ export default withSentryConfig(
       },
       poweredByHeader: false,
       reactStrictMode: true,
+      images: {
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: 'storefront.htmniseko.com',
+            port: '',
+            pathname: '**',
+          },
+        ],
+      },
     }),
   ),
   {
@@ -34,8 +44,8 @@ export default withSentryConfig(
     // Suppresses source map uploading logs during build
     silent: true,
     // FIXME: Add your Sentry organization and project names
-    org: 'nextjs-boilerplate-org',
-    project: 'nextjs-boilerplate',
+    org: '',
+    project: '',
   },
   {
     // For all available options, see:

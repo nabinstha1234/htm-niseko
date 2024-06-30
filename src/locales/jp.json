@@ -26,5 +26,13 @@
   "DashboardLayout": {
     "dashboard_link": "ダッシュボード",
     "sign_out": "サインアウト"
+  },
+  "Search": {
+    "search_placeholder": "物件を検索"
+  },
+  "EmptyState": {
+    "remove_filter": "すべてのフィルターを削除",
+    "no_listing_title": "リストが見つかりません",
+    "no_properties_subtitle": "物件がないようです。"
   }
 }

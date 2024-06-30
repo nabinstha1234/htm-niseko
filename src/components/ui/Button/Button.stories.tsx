@@ -1,6 +1,6 @@
 import {} from '@storybook/react';
 
-import type { Meta, StoryFn } from '@/types/public-types';
+import type { Meta, StoryFn } from '@/types/stories-types';
 
 import type { ButtonProps } from './index';
 import Button from './index';

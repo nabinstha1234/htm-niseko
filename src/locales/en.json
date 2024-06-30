@@ -26,5 +26,13 @@
   "DashboardLayout": {
     "dashboard_link": "Dashboard",
     "sign_out": "Sign out"
+  },
+  "Search": {
+    "search_placeholder": "Search for properties"
+  },
+  "EmptyState": {
+    "remove_filter": "Remove all filters",
+    "no_listing_title": "No Listings found",
+    "no_properties_subtitle": "Looks like you have no properties."
   }
 }
