@@ -42,7 +42,9 @@ export const slideIn = (
   duration: number,
 ) => ({
   hidden: {
+    // eslint-disable-next-line no-nested-ternary
     x: direction === 'left' ? '-100%' : direction === 'right' ? '100%' : 0,
+    // eslint-disable-next-line no-nested-ternary
     y: direction === 'up' ? '100%' : direction === 'down' ? '-100%' : 0,
     opacity: 0,
     transition: {
